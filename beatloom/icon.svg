@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f08a2a"/>
+      <stop offset="1" stop-color="#ffcf5a"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e34"/>
+      <stop offset="1" stop-color="#17191d"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#3d4148" stroke-width="1.5"/>
+  <g fill="url(#bars)">
+    <rect x="13" y="27" width="7" height="25" rx="3.5"/>
+    <rect x="23.5" y="15" width="7" height="37" rx="3.5"/>
+    <rect x="34" y="22" width="7" height="30" rx="3.5"/>
+    <rect x="44.5" y="11" width="7" height="41" rx="3.5"/>
+  </g>
+  <!-- the "loom" thread weaving through the bars -->
+  <path d="M7 40 C 15 29, 22 50, 32 39 S 49 28, 57 39" fill="none" stroke="#1b1d21" stroke-width="6" stroke-linecap="round"/>
+  <path d="M7 40 C 15 29, 22 50, 32 39 S 49 28, 57 39" fill="none" stroke="#eceef0" stroke-width="3" stroke-linecap="round"/>
+</svg>
